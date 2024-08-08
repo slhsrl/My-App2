@@ -1,0 +1,14 @@
+.navbar{
+    height: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   background-color: white;
+    max-width: 100%;
+}
+input[type="image"] {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  

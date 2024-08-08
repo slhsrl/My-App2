@@ -1,0 +1,60 @@
+.button-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Suggestions {
+    display: flex;
+    align-items: center;
+}
+.button-container button {
+    cursor: pointer;
+    background-color: rgb(178, 241, 241);
+    height: 36px;
+    color: #0062FF;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    border: none;
+    min-width: 80px;
+}
+.Search-Field {
+    border-radius: 5px;
+    width: 603px;
+    height: 50px;
+    padding: 0px;
+    border-radius: 15px;
+    display: flex;
+}
+.Search-Field input,
+.Search-Field select {
+
+    box-sizing: border-box;
+    border: none;
+    background-color: #eaeaea;
+    font-size: 14px;
+    text-indent: 10px;
+}
+.Search-Field select {
+    box-sizing: border-box;
+    width: 115px;
+    height: 50px;
+    color: gray;
+    border-radius: 15px 0px 0px 15px;
+}
+.Search-Field input {
+    box-sizing: border-box;
+    width: calc(100% - 130px);
+    height: 50px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 0px;
+}
+.button-container>h1 {
+
+    font-size: 45px;
+}
+.Suggestions>p {
+    color: grey;
+}

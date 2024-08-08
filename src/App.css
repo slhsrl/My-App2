@@ -1,0 +1,10 @@
+body{
+    background-color: #f8f6f6;
+    
+}
+.Searc-Bar{
+    height: 262px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: white;
+}
